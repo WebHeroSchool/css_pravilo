@@ -8,7 +8,7 @@
   padding: 32px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 135px;
+  margin-bottom: 140px;
 
 }
 
@@ -62,7 +62,7 @@
 
 }
 .main {
- padding: 70px 66% 110px 0px;
+ padding: 68px 64% 110px 0px;
  background: top right no-repeat url(img/mainImg.svg);
 background-size: 50%;
 }
@@ -73,14 +73,15 @@ background-size: 50%;
 }
 
 .main__title {
-  padding: 3px 6px 5px 0;
- margin: 0 0 33px 0;
+  letter-spacing: 1px;
+  padding: 6px 7px 9px 0;
+ margin: -2px 0 25px 0;
  font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
 
 }
 
 .main__subtitle {
- margin: 0px 40px 35px 0;
+ margin: 32px 79px 35px -2px;
  font: 22px/26px Roboto, arial, helvetica, sans-serif;
 
 
@@ -91,7 +92,7 @@ display: inline-block;
  font: 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #fff;
  background: #0056EC;
- padding: 20px 34px 18px 18px;
+ padding: 22px 35px 17px 18px;
  text-decoration: none;
  border-radius: 4px;
  transition: opacity .5s;
