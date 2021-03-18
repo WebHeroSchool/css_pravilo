@@ -5,26 +5,29 @@
 }
 
 .header {
-  padding: 40px 0;
+  padding: 32px 0;
   display: flex;
   justify-content: space-between;
-
+  margin-bottom: 140px;
 
 }
+
 .logo {
- width: 190px;
+ width: 189px;
  height: 35px;
  background: url('img/logo.svg');
 
 }
+
 .menu {
  display: flex;
  align-items: center;
 
 }
+
 .menu__item {
  position: relative;
- margin-right: 26px;
+ margin-right: 27px;
  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
@@ -55,6 +58,48 @@
 }
 
 .menu__item:last-child {
- margin-right: 0;
+ margin-right: 4px;
+
+}
+.main {
+ padding: 66px 64% 110px 0px;
+ background: top right no-repeat url(img/mainImg.svg);
+background-size: 50%;
+}
+
+.main__title-text_highlight {
+ background: #ECF3FF;
+
+}
+
+.main__title {
+  letter-spacing: 0px;
+  padding: 6px 7px 9px 0;
+ margin: -2px 0 -1px 0;
+ font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+
+}
+
+.main__subtitle {
+ margin: 31px 77px 36px -3px;
+ font: 22px/26px Roboto, arial, helvetica, sans-serif;
+
+
+}
+
+.main__button {
+display: inline-block;
+ font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ color: #fff;
+ background: #0056EC;
+ padding: 22px 34px 12px 18px;
+ text-decoration: none;
+ border-radius: 4px;
+ transition: opacity .5s;
+
+}
+
+.main__button:hover {
+ opacity: .5;
 
 }
