@@ -1,29 +1,78 @@
-.wrapper {
- margin: auto;
- width: 80%;
+@media (min-width: 1170px) {
 
 }
-.header {
- margin-bottom: 28px;
- }
+
+@media (max-width:768px){
+
+ .menu{
+  display: none;
+}
+
+.header{
+  margin-bottom: 12px;
+}
 
 .logo {
- width: 189px;
- height: 35px;
- background: url('img/logo.svg');
+  width: 43px;
+  height: 35px;
+  background: url('img/logo.svg');
+  margin-top: 23px;
+  margin-left: 16px;
+}
+
+.main {
+ text-align: center;
+ padding: 65% 41px 0;
+ background: top right no-repeat url(img/mainImg.svg);
+ background-size: 77%;
+ background-position: top center;
+ margin:10px 0 0 0;
+ }
+
+ .main__title-text_highlight {
+   background: #ECF3FF;
+   background: top right no-repeat url(img/mainImg.svg);
+   background-size: 50%;
+
+  }
+
+ .main__title-text_highlight {
+  background: #ECF3FF;
+    letter-spacing: 0px;
+ }
+.main__title{
+  margin-bottom: 31px;
+  font:bold 30px/40px 'pt_serif',arial,helvetica,sans-serif;
+}
+.main__subtitle{
+  margin-bottom:25px;
+  padding: 0 2px 0 7px;
+  font:500 16px/19px 'Roboto',arial,helvetica,sans-serif;
+}
+
+.main__button {
+display: inline-block;
+ font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
+ color: #fff;
+ background: #0056EC;
+ padding: 14px 25px 12px 18px;
+ text-decoration: none;
+ border-radius: 4px;
+ transition: opacity .5s;
+
+}
+
+.main__button:hover {
+ opacity: .5;
 
 }
 
 
-@media (max-width: 768px) {
- .menu {
- display: none;
- }
  /*скрываем чекбокс*/
  #menu__toggle{
    opacity: 0;
  }
-}
+
 
 
 /*стилизуем кнопку*/
@@ -32,8 +81,8 @@
   align-items: center;
   position: fixed;
   justify-content: left;
-  top: 20px;
-  left: 20px;
+  top: 27px;
+  left: 87%;
 
   width: 26px;
   height: 26px;
@@ -64,17 +113,18 @@
 }
 /*контейнер меню*/
 .menu__box {
+  font: 500 30px/40px 'Roboto', arial, helvetica, sans-serif;
   display: block;
   position:fixed;
   visibility: hidden;
   top: 0;
   left: 100%;
 
-  width: 300px;
+  width: 375px;
   height: 100%;
 
   margin: 0;
-  padding: 80px 0;
+  padding: 46% 0;
 
   list-style: none;
   text-align: center;
@@ -97,6 +147,49 @@
   text-decoration: none;
 }
 
+.menu__item-burger {
+ font: 500 30px/40px 'Roboto', arial, helvetica, sans-serif;
+ line-height: 65px;
+ color: #000;
+ text-decoration: none;
+ transition: opacity .5s;
+}
+.menu__item-burger1 {
+  margin: 0 0 0 0;
+  padding: 1px 1px 1px 1px;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+   line-height: 58px;
+}
+
+.menu__item-burger2 {
+  margin: 0 0 0 0;
+  padding: 1px 1px 1px 1px;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+   line-height: 58px;
+}
+
+.menu__item-burger3 {
+  margin: 0 0 0 0;
+  padding: 1px 1px 1px 1px;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+   line-height: 64px;
+}
+
+.menu__item-burger4 {
+  margin: 0 0 0 0;
+  padding: 1px 1px 1px 1px;
+  color: #000;
+  text-decoration: none;
+  transition: opacity .5s;
+   line-height: 56px;
+}
+
 .menu__item:hover {
   background-color: #CFD8DC;
 }
@@ -116,6 +209,10 @@
   visibility: visible;
   left: 0;
 }
+.hamburger-menu{
+  display: block;
+  position: relative;
+      }
 /*анимация*/
 .menu__btn > span,
 .menu__btn > span::before,
@@ -127,66 +224,4 @@
 }
 .menu__item {
   transition-duration: .25s;
-}
-
-
-
-
-
-
-
-
- .main {
- text-align: center;
- padding: 74% 0 0;
- background: top right no-repeat url(img/mainImg.svg);
- background-size: 74%;
- background-position: top center;
- }
-
-.main__title-text_highlight {
-  background: #ECF3FF;
-  background: top right no-repeat url(img/mainImg.svg);
-  background-size: 50%;
-
- }
-
-
-.main__title-text_highlight {
- background: #ECF3FF;
-
-}
-
-.main__title {
- margin-bottom: 44px;
- font: bold 30px/40px 'pt_serif', arial, helvetica, sans-serif;
-
- }
-
-.main__subtitle {
- margin-bottom: 25px;
- font: 500 16px/19px 'Roboto', arial, helvetica, sans-serif;
-
-}
-
-.main__button {
-display: inline-block;
- font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
- color: #fff;
- background: #0056EC;
- padding: 22px 34px 12px 18px;
- text-decoration: none;
- border-radius: 4px;
- transition: opacity .5s;
-
-}
-
-.main__button:hover {
- opacity: .5;
-
-}
-
-.main__title-text_highlight {
- background: #ECF3FF;
-
 }
