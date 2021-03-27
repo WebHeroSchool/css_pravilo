@@ -21,6 +21,7 @@
 }
 
 .main {
+ font-family: 'pt_serifbold','arial', 'helvetica';
  text-align: center;
  padding: 65% 41px 0;
  background: top right no-repeat url(img/mainImg.svg);
@@ -41,10 +42,12 @@
     letter-spacing: 0px;
  }
 .main__title{
+  font-family: 'pt_serifbold','arial', 'helvetica';
   margin-bottom: 31px;
   font:bold 30px/40px 'pt_serif',arial,helvetica,sans-serif;
 }
 .main__subtitle{
+  font-family: 'pt_serifbold','arial', 'helvetica';
   margin-bottom:25px;
   padding: 0 2px 0 7px;
   font:500 16px/19px 'Roboto',arial,helvetica,sans-serif;
